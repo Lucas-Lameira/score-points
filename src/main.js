@@ -9,9 +9,9 @@ import router from './router'
 // ICONS
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faRotateLeft, faMinus } from '@fortawesome/free-solid-svg-icons';
+import { faRotateLeft, faMinus, faExpand, faMinimize } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faRotateLeft, faMinus);
+library.add(faRotateLeft, faMinus, faExpand, faMinimize);
 
 const app = createApp(App)
 
